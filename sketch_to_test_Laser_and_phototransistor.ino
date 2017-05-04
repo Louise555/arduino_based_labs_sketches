@@ -34,7 +34,7 @@ int Detector = 7;
 
 void setup()
 { 
-  Serial.begin (115200);
+  Serial.begin (9600);
   pinMode(Laser, OUTPUT);
   pinMode(Detector, INPUT);
 }
